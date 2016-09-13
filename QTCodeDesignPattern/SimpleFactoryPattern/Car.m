@@ -11,7 +11,7 @@
 @implementation Car
 @synthesize carName;
 
-- (void)drive {}
+- (void)go {}
 
 
 @end

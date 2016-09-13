@@ -1,9 +1,11 @@
 //
 //  Driver.h
 //  QTCodeDesignPattern
-//
+//  参考自 http://www.cnblogs.com/zhangchenliang/p/3700820.html
 //  Created by lq9869 on 16/9/12.
 //  Copyright © 2016年 lq9869. All rights reserved.
+//
+//
 //  工厂模式主要是为创建对象提供了接口
 //  工厂模式一般分为三类
 //  1. 简单工厂模式(Simple Factory)
@@ -21,14 +23,14 @@
 //  下面我们从开闭原则上来分析下简单工厂模式。当暴发户增加了一辆车的时候，只要符合抽象产品制定的合同，那么只要通知工厂类知道就可以被客户使用了。（即创建一个新的车类，继承抽象产品Car）那么 对于产品部分来说，它是符合开闭原则的——对扩展开放、对修改关闭；但是工厂类不太理想，因为每增加一辆车，都要在工厂类中增加相应的商业逻辑和判 断逻辑，这显自然是违背开闭原则的。
 //  而在实际应用中，很可能产品是一个多层次的树状结构。由于简单工厂模式中只有一个工厂类来对应这些产品，所以这可能会把我们的Driver类坏了。
 //  正如我前面提到的简单工厂模式适用于业务简单的情况下或者具体产品很少增加的情况。而对于复杂的业务环境可能不太适应了。这就应该由工厂方法模式来出场了！！
-
+//  如果暴发户生意越来越大，车也越来越多，所以一个司机要负责所有车子的维护，忙不过来，暴发户说：我给你分配几个人手，你只管管好他们就行了。这就是接下来要实现的工厂模式
 
 #import <Foundation/Foundation.h>
 #import "Car.h"
 
 typedef NS_ENUM(NSUInteger,CarType) {
-    BenzCar = 0,
-    BmwCar
+    BenzCarType = 0,
+    BmwCarType
 };
 
 @interface Driver : NSObject

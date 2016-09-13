@@ -14,9 +14,9 @@
 
 + (Car *)createCarWithType:(CarType)type {
     switch (type) {
-        case BenzCar:
+        case BenzCarType:
             return [[Benz alloc] init];
-        case BmwCar:
+        case BmwCarType:
             return [[Bmw alloc] init];
     }
 }

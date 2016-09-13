@@ -8,6 +8,10 @@
 
 #import "ViewController.h"
 #import "Driver.h"
+#import "BmwDriver.h"
+#import "BenzDirver.h"
+#import "SportDriver.h"
+#import "BusinessDriver.h"
 
 @interface ViewController ()
 
@@ -18,9 +22,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    Car *car = [Driver createCarWithType:BmwCar];
-    [car drive];
+    [self absFactory];
     
+}
+
+- (void)absFactory {
+    BenzCar *benzCar = [SportDriver createBenz];
+    [benzCar go];
+}
+
+//工厂模式 由产品所对应的具体工厂负责创建
+- (void)factory {
+    Car *car = [BmwDriver createCar];
+    [car go];
+}
+
+//简单工厂模式 由一个工厂负责所有的创建
+- (void)simpleFactory {
+    Car *car = [Driver createCarWithType:BmwCarType];
+    [car go];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,7 +14,7 @@
     return @"嗯，宝马";
 }
 
-- (void)drive {
+- (void)go {
     NSLog(@"%@-----------驾！！！",self.carName);
 }
 
