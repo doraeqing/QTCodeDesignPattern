@@ -15,10 +15,10 @@
 		C9241D711D86A9A800F611E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9241D6F1D86A9A800F611E0 /* LaunchScreen.storyboard */; };
 		C9241D7C1D86A9A800F611E0 /* QTCodeDesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9241D7B1D86A9A800F611E0 /* QTCodeDesignPatternTests.m */; };
 		C9241D871D86A9A800F611E0 /* QTCodeDesignPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9241D861D86A9A800F611E0 /* QTCodeDesignPatternUITests.m */; };
-		C9241D9D1D86B20C00F611E0 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = C9241D9C1D86B20C00F611E0 /* Car.m */; };
-		C9241DA01D86B2C300F611E0 /* Bmw.m in Sources */ = {isa = PBXBuildFile; fileRef = C9241D9F1D86B2C300F611E0 /* Bmw.m */; };
-		C9241DA31D86B2D400F611E0 /* Benz.m in Sources */ = {isa = PBXBuildFile; fileRef = C9241DA21D86B2D400F611E0 /* Benz.m */; };
 		C9241DA61D86B59100F611E0 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = C9241DA51D86B59100F611E0 /* Driver.m */; };
+		C9241DC51D87939E00F611E0 /* Benz.m in Sources */ = {isa = PBXBuildFile; fileRef = C9241DBF1D87939E00F611E0 /* Benz.m */; };
+		C9241DC61D87939E00F611E0 /* Bmw.m in Sources */ = {isa = PBXBuildFile; fileRef = C9241DC11D87939E00F611E0 /* Bmw.m */; };
+		C9241DC71D87939E00F611E0 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = C9241DC31D87939E00F611E0 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,15 +55,15 @@
 		C9241D821D86A9A800F611E0 /* QTCodeDesignPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTCodeDesignPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9241D861D86A9A800F611E0 /* QTCodeDesignPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTCodeDesignPatternUITests.m; sourceTree = "<group>"; };
 		C9241D881D86A9A800F611E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9241D9A1D86B0D100F611E0 /* CarProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CarProtocol.h; path = ../CarProtocol.h; sourceTree = "<group>"; };
-		C9241D9B1D86B20C00F611E0 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Car.h; path = ../Car.h; sourceTree = "<group>"; };
-		C9241D9C1D86B20C00F611E0 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = ../Car.m; sourceTree = "<group>"; };
-		C9241D9E1D86B2C300F611E0 /* Bmw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bmw.h; path = ../Bmw.h; sourceTree = "<group>"; };
-		C9241D9F1D86B2C300F611E0 /* Bmw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bmw.m; path = ../Bmw.m; sourceTree = "<group>"; };
-		C9241DA11D86B2D400F611E0 /* Benz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Benz.h; path = ../Benz.h; sourceTree = "<group>"; };
-		C9241DA21D86B2D400F611E0 /* Benz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Benz.m; path = ../Benz.m; sourceTree = "<group>"; };
 		C9241DA41D86B59100F611E0 /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
 		C9241DA51D86B59100F611E0 /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
+		C9241DBE1D87939E00F611E0 /* Benz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Benz.h; path = QTCodeDesignPattern/SimpleFactoryPattern/Benz.h; sourceTree = SOURCE_ROOT; };
+		C9241DBF1D87939E00F611E0 /* Benz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Benz.m; path = QTCodeDesignPattern/SimpleFactoryPattern/Benz.m; sourceTree = SOURCE_ROOT; };
+		C9241DC01D87939E00F611E0 /* Bmw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bmw.h; path = QTCodeDesignPattern/SimpleFactoryPattern/Bmw.h; sourceTree = SOURCE_ROOT; };
+		C9241DC11D87939E00F611E0 /* Bmw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bmw.m; path = QTCodeDesignPattern/SimpleFactoryPattern/Bmw.m; sourceTree = SOURCE_ROOT; };
+		C9241DC21D87939E00F611E0 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Car.h; path = QTCodeDesignPattern/SimpleFactoryPattern/Car.h; sourceTree = SOURCE_ROOT; };
+		C9241DC31D87939E00F611E0 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = QTCodeDesignPattern/SimpleFactoryPattern/Car.m; sourceTree = SOURCE_ROOT; };
+		C9241DC41D87939E00F611E0 /* CarProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarProtocol.h; path = QTCodeDesignPattern/SimpleFactoryPattern/CarProtocol.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,13 +168,13 @@
 		C9241DA71D86BB5400F611E0 /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				C9241D9A1D86B0D100F611E0 /* CarProtocol.h */,
-				C9241D9B1D86B20C00F611E0 /* Car.h */,
-				C9241D9C1D86B20C00F611E0 /* Car.m */,
-				C9241D9E1D86B2C300F611E0 /* Bmw.h */,
-				C9241D9F1D86B2C300F611E0 /* Bmw.m */,
-				C9241DA11D86B2D400F611E0 /* Benz.h */,
-				C9241DA21D86B2D400F611E0 /* Benz.m */,
+				C9241DBE1D87939E00F611E0 /* Benz.h */,
+				C9241DBF1D87939E00F611E0 /* Benz.m */,
+				C9241DC01D87939E00F611E0 /* Bmw.h */,
+				C9241DC11D87939E00F611E0 /* Bmw.m */,
+				C9241DC21D87939E00F611E0 /* Car.h */,
+				C9241DC31D87939E00F611E0 /* Car.m */,
+				C9241DC41D87939E00F611E0 /* CarProtocol.h */,
 			);
 			name = Product;
 			path = product;
@@ -317,12 +317,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9241DA01D86B2C300F611E0 /* Bmw.m in Sources */,
+				C9241DC61D87939E00F611E0 /* Bmw.m in Sources */,
+				C9241DC51D87939E00F611E0 /* Benz.m in Sources */,
 				C9241D691D86A9A800F611E0 /* ViewController.m in Sources */,
 				C9241D661D86A9A800F611E0 /* AppDelegate.m in Sources */,
+				C9241DC71D87939E00F611E0 /* Car.m in Sources */,
 				C9241DA61D86B59100F611E0 /* Driver.m in Sources */,
-				C9241D9D1D86B20C00F611E0 /* Car.m in Sources */,
-				C9241DA31D86B2D400F611E0 /* Benz.m in Sources */,
 				C9241D631D86A9A800F611E0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
