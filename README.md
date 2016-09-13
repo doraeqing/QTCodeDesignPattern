@@ -1,0 +1,2 @@
+# QTCodeDesignPattern
+Learning design patterns
